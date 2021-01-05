@@ -6,9 +6,8 @@ class Square:
     """ New item SIZEEEE """
 
     def __init__(self, size=0):
-	    """ Initialize the size ? please ?
-        Do verification also please"""
-    pass
+        """ Initialize the size ? please ?"""
+        self.size = size
 
     @property
     def size(self):
