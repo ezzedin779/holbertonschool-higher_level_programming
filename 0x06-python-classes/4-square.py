@@ -8,7 +8,7 @@ class Square:
     def __init__(self, size=0):
 	    """ Initialize the size ? please ?
         Do verification also please"""
-        self.size = size
+    pass
 
     @property
     def size(self):
