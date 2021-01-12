@@ -61,6 +61,5 @@ class Rectangle:
 
     def __repr__(self):
         """ Eval Magic ? """
-        rect = "Rectangle(" + str(self.width)
-        rect += "," + str(self.height) + ")"
+        rect = "Rectangle(" + str(self.__width) + "," + str(self.__height) + ")"
         return rect
