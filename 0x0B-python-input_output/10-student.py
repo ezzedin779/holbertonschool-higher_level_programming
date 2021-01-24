@@ -12,7 +12,7 @@ class Student:
 
     def to_json(self, attrs=None):
         """ retrieve on condition """
-        if attrs == None:
+        if attrs is None:
             return self.__dict__
         dictionary = {}
         for i in attrs:
