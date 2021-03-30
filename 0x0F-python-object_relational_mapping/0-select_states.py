@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # Gets all states from hbtn_0e_0_usa
+# using MySQLdb
 import sys
 import MySQLdb
 
