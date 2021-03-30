@@ -10,5 +10,5 @@ if __name__ == "__main__":
     q = s.cursor()
     q.execute("SELECT * FROM `states` ORDER BY `id`")
     for state in q.fetchall():
-        if state[1][0]:
+        if state[1][0] == "N":
             print(state)
