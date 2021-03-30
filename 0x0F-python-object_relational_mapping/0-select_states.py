@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-# Gets all states from hbtn_0e_0_usa
-# Usage: ./0-select_states.py <username> \
-#                             <password> \
-#                             <Database>
+""" Gets all states from hbtn_0e_0_usa
+Usage: ./0-select_states.py <username> <password> <Database> """
 import sys
 import MySQLdb
 
