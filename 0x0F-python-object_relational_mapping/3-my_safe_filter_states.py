@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-""" Gets all states with starting N from hbtn_0e_0_usa
-Usage: ./1-filter_states.py <username> <password> <Database> """
+""" Gets the state needed from hbtn_0e_0_usa
+Usage: ./3-my_safe_filter_states.py <username> <password> <Database> """
 import sys
 import MySQLdb
 
