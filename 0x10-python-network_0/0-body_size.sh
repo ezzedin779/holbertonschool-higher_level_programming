@@ -1,3 +1,3 @@
 #!/bin/bash
 # Response
-curl -sL "$1"
+curl -s "$1" | wc -c
