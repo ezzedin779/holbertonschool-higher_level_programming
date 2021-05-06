@@ -1,3 +1,3 @@
 #!/bin/bash
 # POST REQUEST (JSON)
-curl -s -H "Content-Type: application/json" -d "$(cat"$2")" "$1"
+curl -s -H "Content-Type: application/json" -d "$(cat "$2")" "$1"
