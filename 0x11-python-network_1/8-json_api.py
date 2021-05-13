@@ -5,7 +5,7 @@ import sys
 
 
 if __name__ == "__main__":
-    if (argv) == 2:
+    if len(argv) == 2:
         q = argv[1]
     else:
         q = ""
