@@ -1,4 +1,4 @@
-#!/usr//bin/python3
+#!/usr/bin/python3
 """ X-Request- Id """
 import sys
 import urllib.request
