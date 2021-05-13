@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 """ POST REQUEST WITH EMAIL """
 import sys
-import urllib.request
-import urllib.parse
+import requests
 
 
 if __name__ == "__main__":
