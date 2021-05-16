@@ -2,7 +2,7 @@
 const req = require('request');
 req.get(process.argv[2], function (err, res, b) {
   if (err) {
-	  console.log(err);
+    console.log(err);
   }
   let num = 0;
   const info = JSON.parse(b);
